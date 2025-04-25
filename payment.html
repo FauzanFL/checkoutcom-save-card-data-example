@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Frames v2</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <form id="payment-form">
+        <select name="choose-card" id="choose-card"></select>
+        <div class="input-currency">
+            <input id="amount" step="any" type="number">
+            <span>BHD</span>
+        </div>
+        <button id="pay-button">
+            Pay
+        </button>
+    </form>
+
+    <script src="https://cdn.checkout.com/js/framesv2.min.js"></script>
+    <script src="payment.js"></script>
+</body>
+</html>
